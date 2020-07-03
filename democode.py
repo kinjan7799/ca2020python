@@ -12,8 +12,13 @@ class Person:
         elif age < 13:
             print("You are young.")
 
+<<<<<<< HEAD
         elif 13 <= age < 19:
             print("You are a good teenager.")
+=======
+        elif 13 <= age < 20:
+            print("You are not just a teenager.")
+>>>>>>> 4e73ec681656dff2e2c672932c4ebf89070552c5
 
         else:
             print("You are old.")
