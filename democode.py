@@ -10,10 +10,10 @@ class Person:
             print("Age is not valid, setting age to 0")
 
         elif age < 13:
-            print("You are young.")
+            print("You are very young.")
 
         elif 13 <= age < 18:
-            print("You are teenager.")
+            print("You are a teenager.")
 
         else:
             print("You are old.")
